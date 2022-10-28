@@ -1,0 +1,14 @@
+{
+  "plugin_type": "files",
+  "name": "files-dbt",
+  "namespace": "dbt",
+  "variant": "dbt",
+  "label": "files-dbt",
+  "repo": "https://github.com/Matatika/files-dbt",
+  "pip_url": "git+https://github.com/Matatika/files-dbt@v1.0.x.1",
+  "id": "07fb246a-aa15-4eec-b801-203949e1f86c",
+  "update": {
+    "transform/profile/profiles.yml": "true"
+  },
+  "matatika_hidden": false
+}
