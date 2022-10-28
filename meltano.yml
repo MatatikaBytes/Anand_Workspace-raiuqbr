@@ -10,6 +10,9 @@ plugins:
   - name: tap-google-sheets
     variant: meltano
     pip_url: git+https://github.com/Matatika/tap-google-sheets@v0.2.0
+  - name: tap-spreadsheets-anywhere
+    variant: ets
+    pip_url: git+https://github.com/ets/tap-spreadsheets-anywhere.git
   loaders:
   - name: target-postgres
     variant: transferwise
